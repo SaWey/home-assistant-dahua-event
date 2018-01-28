@@ -25,9 +25,9 @@ Just add them at the end of your dahua_event device config:
 ``` 
 channels:
     - number: 0
-      name: keuken
+      name: Kitchen
     - number: 2
-      name: garage
+      name: Garage
 ``` 
 
 
@@ -36,7 +36,7 @@ According to the API docs, these events are available:
 - VideoMotion: motion detection event
 - VideoLoss: video loss detection event
 - VideoBlind: video blind detection event.
-- AlarmLoca-l: alarm detection event.
+- AlarmLocal: alarm detection event.
 - CrossLineDetection: tripwire event
 - CrossRegionDetection: intrusion event
 - LeftDetection: abandoned object detection
